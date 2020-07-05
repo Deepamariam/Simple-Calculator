@@ -12,7 +12,7 @@ function solve()
 } 
   
 //function that clear the display 
-function clear() 
+function clearIt() 
 { 
     document.getElementById("result").value = "  "
 } 
