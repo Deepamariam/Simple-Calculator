@@ -1,9 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+
 .calculator{
     display: flex;
     flex-direction: column;
     background-color: black;
     width: 100%;
-    height: 97.62vh;
+    height: 97vh;
     justify-content: center;
     align-items: center;
 }
