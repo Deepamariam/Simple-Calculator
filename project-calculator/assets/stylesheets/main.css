@@ -1,0 +1,117 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 97.62vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-display{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    width: 50%;
+    height: 10vh;
+    
+
+
+}
+
+.calculator-keys{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background-color: black;
+    border-radius: 5;
+    
+}
+
+.keys-row1{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.keys-row2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+.keys-row3{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+.keys-row4{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+.button-items{
+    display: flex;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    width: 7%;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: none;
+    background-color: black;
+    
+    
+
+}
+
+
+
+
+.display-value{
+    text-align: right;
+    vertical-align: bottom;
+    border: none;
+    width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.equal-button{
+    background-color: orangered;
+    border-radius: 45%;
+}
