@@ -6,21 +6,15 @@ function display(val)
 //function that evaluates the digit and return result 
 function solve() 
 { 
-    
-
-    /*try{
-        (document.getElementsById("result").value = "")
-    }
-
-    catch(err){
-
-        document.getElementsById("result").value = ""
-    } */
-    
     let x = document.getElementById("result").value 
-    let y = eval(x) 
-    document.getElementById("result").value = y 
-
+    result = x.trim()
+    if(result == ""){
+     document.getElementById("result").value = ""
+    }
+    else{
+        let y = eval(x) 
+        document.getElementById("result").value = y 
+    }
     
 
 } 
