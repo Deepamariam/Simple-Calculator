@@ -4,26 +4,32 @@
     outline: none;
 }
 
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: 100%;
+}
 
 .calculator{
     display: flex;
     flex-direction: column;
     background-color: black;
-    width: 100%;
-    height: 97vh;
     justify-content: center;
     align-items: center;
+    width: 45%;
+    margin: 0 auto;
+    border-radius: 14px;
 }
 
 .calculator-display{
     display: flex;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-    
-    width: 50%;
+    width: 90%;
     height: 10vh;
+    padding: 38px 0 0 0;
     
 
 
@@ -32,55 +38,16 @@
 .calculator-keys{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 10%;
+    width: 90%;
     background-color: black;
     border-radius: 5;
-    
+    padding: 40px 0 0 0;
 }
 
-.keys-row1{
+.keys-row{
     display: flex;
     justify-content: space-evenly;
-
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
-
-.keys-row2{
-    display: flex;
-    justify-content: space-evenly;
-    
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
-
-
-.keys-row3{
-    display: flex;
-    justify-content: space-evenly;
-    
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
-
-
-.keys-row4{
-    display: flex;
-    justify-content: space-evenly;
-    
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    margin-bottom: 25px;
 }
 
 
@@ -97,27 +64,39 @@
     font-size: 30px;
     border: none;
     background-color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
     
     
 
 }
 
+.button-items:hover{
+    color: black;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
 .sidebar-buttons{
     color: orangered;
-}  
+}
 
 
 
 
 .display-value{
+    background-color: white;
     text-align: right;
     vertical-align: bottom;
     border: none;
     width: 100%;
+    
     height: 10vh;
     font-size: 40px;
-    background-color: black;
-    color: white;
+    
+    color: black;
+    font-weight: bolder;
 
 
 }
